@@ -22,5 +22,21 @@ public final class Pikaczu extends Pokemon implements PokemonInterfejs{
         System.out.println(pikaczuList);
     }
 
+    public boolean isStrong() {
+        if (combatpower >= 500) {
+            return true;
+        } else {
+            return false;
+        }
+    }
 
+    public void gigglePokemon(){
+         System.out.println("hihihihihi");
+    }
+
+    /*public Raichu pikaczuEvolve(){
+        if(combatpower+hp >1000) {
+            Raichu hh new Raichu("RaichuFromPikaczu", 200, 1000);
+        }
+    }*/
 }
