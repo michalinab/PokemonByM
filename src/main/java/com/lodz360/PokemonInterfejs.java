@@ -6,6 +6,8 @@ package com.lodz360;
 public interface PokemonInterfejs {
 
     String toString();
+
     boolean isStrong();
+
     void gigglePokemon();
 }

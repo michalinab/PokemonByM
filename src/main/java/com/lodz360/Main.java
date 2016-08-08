@@ -2,7 +2,8 @@
  * Created by michalina on 08/08/16.
  */
 package com.lodz360;
-public  class Main {
+
+public class Main {
     public static void main(String[] args) {
 
         Pikaczu.createPikaczu(3); //tworzenie wielu Pikaczu
@@ -13,17 +14,12 @@ public  class Main {
         pikaczu.pikaczuEvolve();
 
 
-
-
-
-
-        if(pikaczu.isStrong() ){
+        if (pikaczu.isStrong()) {
             System.out.println(pikaczu.name + " is very strong");
 
-        }else {
+        } else {
             System.out.println(pikaczu.name + " is weak");
         }
-
 
 
     }

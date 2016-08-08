@@ -2,10 +2,11 @@
  * Created by michalina on 08/08/16.
  */
 package com.lodz360;
+
 import java.util.ArrayList;
 import java.util.List;
 
-public final class Pikaczu extends Pokemon implements PokemonInterfejs{
+public final class Pikaczu extends Pokemon implements PokemonInterfejs {
     public Pikaczu() {
         this.name = "Pikaczu";
         this.combatpower = 100;
@@ -13,7 +14,7 @@ public final class Pikaczu extends Pokemon implements PokemonInterfejs{
     }
 
     public static void createPikaczu(int n) { //kreator dla Pikaczu
-        List <Pikaczu> pikaczuList = new ArrayList <>();
+        List<Pikaczu> pikaczuList = new ArrayList<>();
 
         for (int i = 1; i <= n; i++) {
             pikaczuList.add((new Pikaczu()));
@@ -30,8 +31,8 @@ public final class Pikaczu extends Pokemon implements PokemonInterfejs{
         }
     }
 
-    public void gigglePokemon(){      //metoda dla Pokemonów
-         System.out.println("hihihihihi");
+    public void gigglePokemon() {      //metoda dla Pokemonów
+        System.out.println("hihihihihi");
     }
 
     public void pikaczuEvolve() {    //metoda tylko dla Pikaczu

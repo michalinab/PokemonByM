@@ -18,7 +18,8 @@ public class Raichu extends Pokemon implements PokemonInterfejs {
         }
     }
 
-    public void gigglePokemon(){
-        System.out.println("hahahahaha");    }
+    public void gigglePokemon() {
+        System.out.println("hahahahaha");
+    }
 
 }

@@ -9,7 +9,6 @@ public abstract class Pokemon implements PokemonInterfejs {
     protected int hp;
 
 
-
     public String toString() {
         return name + " health: " + hp + "combat power: " + combatpower;
     }
