@@ -10,7 +10,9 @@ public  class Main {
         pikaczu.gigglePokemon();
         pikaczu.isStrong();
 
- /*       pikaczu.pikaczuEvolve();*/
+        pikaczu.pikaczuEvolve();
+
+
 
 
 

@@ -12,7 +12,7 @@ public final class Pikaczu extends Pokemon implements PokemonInterfejs{
         this.hp = 1000;
     }
 
-    public static void createPikaczu(int n) {
+    public static void createPikaczu(int n) { //kreator dla Pikaczu
         List <Pikaczu> pikaczuList = new ArrayList <>();
 
         for (int i = 1; i <= n; i++) {
@@ -22,7 +22,7 @@ public final class Pikaczu extends Pokemon implements PokemonInterfejs{
         System.out.println(pikaczuList);
     }
 
-    public boolean isStrong() {
+    public boolean isStrong() {  //metoda dla Pokemonów
         if (combatpower >= 500) {
             return true;
         } else {
@@ -30,13 +30,15 @@ public final class Pikaczu extends Pokemon implements PokemonInterfejs{
         }
     }
 
-    public void gigglePokemon(){
+    public void gigglePokemon(){      //metoda dla Pokemonów
          System.out.println("hihihihihi");
     }
 
-    /*public Raichu pikaczuEvolve(){
-        if(combatpower+hp >1000) {
-            Raichu hh new Raichu("RaichuFromPikaczu", 200, 1000);
+    public void pikaczuEvolve() {    //metoda tylko dla Pikaczu
+        Raichu raichu = null;
+        if (combatpower + hp > 1000) {
+            raichu = new Raichu("RaichuFromPikaczu", 200, 1000);
         }
-    }*/
+        System.out.println(raichu.toString());
+    }
 }
