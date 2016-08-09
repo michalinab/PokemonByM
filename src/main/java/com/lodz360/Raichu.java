@@ -10,7 +10,7 @@ public class Raichu extends Pokemon implements PokemonInterfejs {
         this.hp = hp;
     }
 
-    public boolean isStrong() {
+    public boolean isStrong() {//metody z Interfejsu, opisane w Pikaczu
         if (combatpower >= 500) {
             return true;
         } else {

@@ -3,11 +3,11 @@
  */
 package com.lodz360;
 
-public class Main {
-    public static void main(String[] args) {
+public class Main {//klasa Main musi być publiczna, wejście do programu, łączy, klei pozostałe klasy
+    public static void main(String[] args) {//metoda mian służy do komuniacji z użytkownikiem, pobiera i wyświetla dane
 
-        Pikaczu.createPikaczu(3); //tworzenie wielu Pikaczu
-        Pikaczu pikaczu = new Pikaczu(); //delkaracja nowego obiektu typu Pikaczu, jak odwołać się do listy????
+        Pikaczu.createPikaczuList(3);
+        Pikaczu pikaczu = new Pikaczu();
         pikaczu.gigglePokemon();
         pikaczu.isStrong();
 
@@ -20,6 +20,10 @@ public class Main {
         } else {
             System.out.println(pikaczu.name + " is weak");
         }
+
+
+
+        int a;
 
 
     }
